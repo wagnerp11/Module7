@@ -1,0 +1,12 @@
+> c <- list(carMake = "civic", year = 2012, mpg = 32)
+> c
+$carMake
+[1] "civic"
+
+$year
+[1] 2012
+
+$mpg
+[1] 32
+
+> s4 <- new( "Car" , make = "civic", year = 2012, mpg = 32)
